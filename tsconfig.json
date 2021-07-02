@@ -10,6 +10,10 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "jsx": "react",
     "incremental": true
-  }
+  },
+  "include": [
+    "./src/**/*.ts"
+, "src/auth/type.tsx"]
 }
